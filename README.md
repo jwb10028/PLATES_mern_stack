@@ -28,7 +28,7 @@ Before setting up PLATES, ensure you have the following installed:
 
 1.  **Clone the repository**
 
-bashCopy code
+
 
 `git clone https://github.com/your-username/PLATES.git cd PLATES`
 
