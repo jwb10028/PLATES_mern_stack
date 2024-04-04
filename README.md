@@ -34,17 +34,17 @@ bashCopy code
 
 2.  **Install dependencies**
 
-For the backend (root directory):
+For the backend:
 
-bashCopy code
 
-`npm install`
+
+`cd backend npm install`
 
 For the frontend (inside the `client` directory):
 
-bashCopy code
 
-`cd client npm install`
+
+`cd frontend npm install`
 
 3.  **Environment Configuration**
 
@@ -58,15 +58,14 @@ envCopy code
 
 *   To start the backend:
 
-bashCopy code
 
-`npm start`
+
+`npm run dev`
 
 *   To start the frontend (in a new terminal window):
 
-bashCopy code
 
-`cd client npm start`
+`cd frontend npm start`
 
 Your application should now be running on `http://localhost:3000`.
 
