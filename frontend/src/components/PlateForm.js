@@ -4,6 +4,7 @@ import { usePlatesContext } from "../hooks/usePlatesContext";
 const PlateForm = () => {
     const { dispatch } = usePlatesContext()
     const [title, setTitle] = useState('')
+    const [artist, setArtist] = useState('')
     const [genre, setGenre] = useState('')
     const [description, setDescription] = useState('')
     const [privacy, setPrivacy] = useState('')
@@ -13,7 +14,7 @@ const PlateForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         
-        const plate = {title, genre, description, privacy}
+        const plate = {title, artist, genre, description, privacy}
 
         const response = await fetch('/api/plates', {
             method: 'POST',
@@ -32,6 +33,7 @@ const PlateForm = () => {
 
         if (response.ok) {
             setTitle('')
+            setArtist('')
             setGenre('')
             setDescription('')
             setPrivacy('')
@@ -52,6 +54,13 @@ const PlateForm = () => {
             onChange={(e) => setTitle(e.target.value)}
             value={title}
             className={emptyFields.includes('title') ? 'error' : ''}
+        />
+        <label>Plate Artist: </label>
+        <input
+            type="text"
+            onChange={(e) => setArtist(e.target.value)}
+            value={artist}
+            className={emptyFields.includes('artist') ? 'error' : ''}
         />
         <label>Plate Genre: </label>
         <input

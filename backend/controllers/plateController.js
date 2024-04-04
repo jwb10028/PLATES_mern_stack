@@ -44,12 +44,15 @@ const deletePlate = async (req, res) => {
 
 //POST a plate
 const  createPlate = async (req, res) => {
-    const {title, genre, description, privacy} = req.body
+    const {title, artist, genre, description, privacy} = req.body
 
     let emptyFields = []
 
     if (!title){
         emptyFields.push('title')
+    }
+    if(!artist){
+        emptyFields.push('artist')
     }
     if (!genre){
         emptyFields.push('genre')
@@ -66,7 +69,7 @@ const  createPlate = async (req, res) => {
 
     // add document to the database
     try{
-        const plate = await Plate.create({title, genre, description, privacy})
+        const plate = await Plate.create({title, artist, genre, description, privacy})
         res.status(200).json(plate)
     } catch (error) {
         res.status(400).json({error: error.message})

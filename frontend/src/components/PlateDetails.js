@@ -21,6 +21,7 @@ const PlateDetails = ({plate}) => {
     return (
         <div className="plate-details">
             <h4>{plate.title}</h4>
+            <h4><strong>by </strong>{plate.artist}</h4>
             <p><strong>Genre: </strong>{plate.genre}</p>
             <p><strong>Description: </strong>{plate.description}</p>
             <p><strong>Privacy: </strong>{plate.privacy}</p>

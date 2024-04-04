@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*Layout*/
 :root {
@@ -10,7 +10,7 @@
 body {
   background: #f1f1f1;
   margin: 0;
-  font-family: "Ubuntu";
+  font-family: "Inter Tight", sans-serif;
 }
 
 header {
@@ -19,8 +19,9 @@ header {
 
 header .container {
   max-width: 1400px;
+  background-color: #333;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 0px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -97,7 +98,7 @@ form button {
   border: 0;
   color: #fff;
   padding: 10px;
-  font-family: "Ubuntu";
+  font-family: "Inter Tight", sans-serif;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -114,6 +115,7 @@ div.error {
 .container h1 {
   color: var(--primary);
 }
+
 
 /*ERROR*/
 input.error {

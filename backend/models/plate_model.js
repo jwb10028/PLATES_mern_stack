@@ -7,6 +7,10 @@ const plateSchema = new Schema({
         type: String,
         required: true
     },
+    artist: {
+        type: String,
+        required: true
+    },
     genre: {
         type: String,
         required: true
