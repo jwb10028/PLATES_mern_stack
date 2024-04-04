@@ -1,6 +1,12 @@
 PLATES
 ======
 
+Disclaimer
+
+------------
+
+PLATES is a self-learning project developed as part of an educational endeavor to understand and apply the principles of web development using the MERN stack. This application is intended to serve as a portfolio piece and a practical exercise in building real-world software solutions. While it aims to simulate a professional project environment, it is not a commercial product and should be viewed in the context of a learning exercise. Feedback and contributions are welcome as they contribute to the learning experience.
+
 Introduction
 ------------
 
