@@ -52,28 +52,21 @@ For the frontend (inside the `client` directory):
 
 `cd frontend npm install`
 
-3.  **Environment Configuration**
 
-Create a `.env` file in the root directory and add the following variables:
-
-envCopy code
-
-`DB_URI=mongodb://localhost:27017/plates PORT=5000`
-
-4.  **Run the Application**
+3.  **Run the Application**
 
 *   To start the backend:
 
 
 
-`npm run dev`
+`cd backend npm run dev`
+Your backend application should now be running on `http://localhost:4000`.
 
 *   To start the frontend (in a new terminal window):
 
-
 `cd frontend npm start`
 
-Your application should now be running on `http://localhost:3000`.
+Your frontend application should now be running on `http://localhost:3000`.
 
 Future Updates
 --------------
