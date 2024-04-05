@@ -57,9 +57,8 @@ For the frontend (inside the `client` directory):
 
 *   To start the backend:
 
-
-
 `cd backend npm run dev`
+
 Your backend application should now be running on `http://localhost:4000`.
 
 *   To start the frontend (in a new terminal window):
