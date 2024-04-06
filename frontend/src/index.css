@@ -123,9 +123,16 @@ div.error {
   margin: 20px 0;
 }
 
-/*NAV*/
+/*NAV & FOOTER*/
 .container h1 {
   color: var(--primary);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
 
 

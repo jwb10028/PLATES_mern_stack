@@ -10,7 +10,7 @@ root.render(
   <React.StrictMode>
     <PlatesContextProvider>
       <App />
-      </PlatesContextProvider>
+    </PlatesContextProvider>
   </React.StrictMode>
 );
 
