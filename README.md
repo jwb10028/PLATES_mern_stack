@@ -71,6 +71,7 @@ Future Updates
 --------------
 
 *   **Authentication**: Implementing a secure authentication system to protect user data and personalize user experience.
+*   Additional features including audio upload/edit/delete from secure AWS s3 bucket
 *   Additional features to enhance user engagement and platform monetization capabilities.
 
 Contribution
